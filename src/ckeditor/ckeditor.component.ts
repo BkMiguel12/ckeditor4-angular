@@ -51,7 +51,7 @@ export class CKEditorComponent implements AfterViewInit, OnDestroy, ControlValue
 	 *
 	 * Defaults to 'https://cdn.ckeditor.com/4.16.1/standard-all/ckeditor.js'
 	 */
-	@Input() editorUrl = 'https://cdn.ckeditor.com/4.16.1/standard-all/ckeditor.js';
+	@Input() editorUrl = 'https://cdn.ckeditor.com/4.16.1/full-all/ckeditor.js';
 
 	/**
 	 * Tag name of the editor component.
